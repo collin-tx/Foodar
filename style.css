@@ -8,6 +8,10 @@
         margin-right: 15%;
       
       }
+a:hover {
+        color: teal;
+        text-decoration: none;
+}
   
 label {
          float: left;
@@ -34,9 +38,8 @@ label {
       
 
 .span-text {
-
           position: absolute;
-          top: 130%;
+          top: 100%;
           left: 70%;
           transform: translate(-50%, -50%);
           font-family: helvetica;
@@ -84,9 +87,7 @@ form {
       }
 
 .social {
-      
-           margin-left: 50%;
-      
+           float: left;
       }
       
      
@@ -104,8 +105,16 @@ form {
           margin-right: 1000px;          
       } 
 
-.footer-info { 
-        float: right;
+.footer-links { 
         
 }
+.copyright {
+        float: right;
 
+}
+
+ul {
+      list-style-type: none;
+      display: block
+
+}
