@@ -2,48 +2,7 @@
 <html>
   <head>
     <title>Foodar</title>
-    <style>
-    a {
-        float: right;
-        margin-right: 15%;
-      
-      }
-    label {
-         float: left;
-         margin-left: 15%;
-      
-      }
-      
-    h1 {
-          font-size: 3em;
-      }
-    p {
-          font-size: 1.5em;
-      }
-      
-    form {
-      
-         margin-bottom: 10em;
-      }
-    
-    img {
-      
-         width: 50%;
-         margin-left: 15%;
-      }
-      
-    .article-one {
-         float: left;
-      }
-    
-    .article-two {
-         float: right;
-      }
-    nav { 
-        float: right;
-}
-
-    </style>
+     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <header class="main-header" role="banner">
@@ -51,20 +10,25 @@
         <p>Foodar Banner Info</p>
         <p>Foodar Banner Info</p>
       </article>
-      <img src="foodimg.png" alt="Foodar Logo Image"/>
+      <img src="Pics/foodar-logo.png" alt="Foodar Logo Image" class="banner-img"/>
       <article class="article-two">
         <p>Foodar Banner Info</p>
         <p>Foodar Banner Info</p>
       </article>
     </header>
-    <label for="foodar">Foodar</label>
-    <a href="#Register">
-    Sign in / Register
-    </a>
-   <img src="foodimg.png" alt="Foodar Logo Image"/>
-    <div>
-     <img src="" alt="">
-  </div>
+      <a href="#Register" class="sign-up">
+      Sign in / Register
+      </a>
+    <h3 class="title">Foodar</h3>
+   
+    
+    <span class="span-img">
+      <img src="Pics/foodpic.jpeg">
+      <div class="span-text">HUNGRY? <br>GET IT DELIVERED!</div>
+    </span>
+  
+    
+    
   <div>
     <h1>Find a driver near you!</h1>
     <p>Type in your zipcode below and click Go! to find a driver near you</p>
@@ -76,18 +40,33 @@
   </div>
     
   <footer>
-    &copy; Foodar 2019 CMS Technologies <br>
-    <nav>
-        Where do you want to go?
-      <select>
-        <option url="#About">About Foodar
-        </option>
-        <option url="#Home">Home
-        </option>
-        <option url="#Register">Register
-        </option>
-      </select>
-    </nav>
+    <table class="footer">
+        <td class="footer-links">
+          Where do you want to go?
+          <a href="#Home">Home</a>
+          <a href="#About">About Foodar</a>
+          <a href="#Register">Register</a>
+        </td>
+
+        <td>
+          <a href="https://www.facebook.com/foodar">
+            <img src="Pics/Facebook-Logo-.png" alt="facebook logo" class="social social-f">
+          </a>
+          <a href="https://www.twitter.com/foodar">
+            <img src="Pics/Twitter-Logo.png" alt="twitter logo" class="social social-t">
+          </a>
+        </td>
+        
+        <td>
+          <a>Privacy Policy</a>
+          <a>Terms and Conditions</a>
+          &copy;2019 Foodar
+        </td>
+
+      
+    </table>    
+      
+      
   </footer>
  </body>
 </html>
