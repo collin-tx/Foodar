@@ -1,1 +1,90 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request Page</title>
+     <link rel="stylesheet" type="text/css" href="style.css">\
+  </head>
+  <body>
+    <header class="main-header" role="banner">       
+      <img src="Pics/foodar-logo.png" alt="Foodar Logo Image" class="banner-img"/>
+    </header>
+  <div>
+    <h1>SUBMIT YOUR REQUEST</h1>
+    <p>Please fill out the form below.</p>
+  </div>
+  <form method="post">
+    <fieldset>
+      <legend>Email Address:</legend>
+      <input type="text" placeholder="example@example.com">
+    </fieldset>
+    <fieldset>
+      <div>
+        <input type="radio" id="classic" name="style" value="classic">
+        <label for="premium">Classic</label>
+        <p>This is a classic treatment</p>
+      </div>
+      
+      <div>
+        <input type="radio" id="premium" name="style" value="premium">
+        <label for="premium">Premium</label>
+        <p>Pinkies up, folks!</p>
+      </div>
+      
+      <div>
+        <input type="radio" id="royal" name="style" value="royal">
+        <label for="royal">Royal</label>
+        <p>Your food is literally served on a silver platter. All the stops.</p>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Restaurant:</legend>
+      <input type="text" placeholder="Name of Restaurant">
+    </fieldset>
+    <fieldset>
+      <legend>Tip:</legend>
+      <div>
+        <input type="radio" id="ten" name="tip" value="ten">
+        <label for="ten">10%</label>
+        <p>They did their job.</p>
+      </div>
+      
+      <div>
+        <input type="radio" id="fifteen" name="tip" value="fifteen">
+        <label for="fifteen">15%</label>
+        <p>They made you feel special.</p>
+      </div>
+      
+      <div>
+        <input type="radio" id="twenty" name="tip" value="twenty">
+        <label for="twenty">20%</label>
+        <p>I wish I could give them more but this is all I have!</p>
+      </div>
+    </fieldset>
+    
+    <h2>TOTAL: $32.94</h2>
+    <button type="submit" id="request-button">REQUEST</button>
+  </form>
+  <footer>
+    <div class="footer">
+        <ul class="footer-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About Foodar</a></li>
+          <li><a href="#Register">Register</a></li>
+        </ul>
+        <div class="social">
+          <a href="https://www.facebook.com/foodar">
+            <img src="Pics/Facebook-Logo-.png" alt="facebook logo" class="social social-f">
+          </a>
+          <a href="https://www.twitter.com/foodar">
+            <img src="Pics/Twitter-Logo.png" alt="twitter logo" class="social social-t">
+          </a>
+        </div>
+        <ul class="copyright">
+          <li><a>Privacy Policy</a></li>
+          <li><a>Terms and Conditions</a></li>
+          <li>&copy;2019 Foodar</li>
+        </ul>
+      </div>      
+  </footer>
+ </body>
+</html>
