@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Foodar</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="app.js"></script>
- </head>
- <body>
-   <header class="main-header" role="banner">
-    <article class="article-one">
-      <p>Foodar Banner Info</p>
-      <p>Foodar Banner Info</p>
-    </article>
-    <img src="Pics/foodar-logo.png" alt="Foodar Logo Image" class="banner-img"/>
-    <article class="article-two">
-      <p>Foodar Banner Info</p>
-      <p>Foodar Banner Info</p>
-    </article>
-  </header>
-    <a href="#Register" class="sign-up">
-    Sign in / Register
-    </a>
-  <h3 class="title">Foodar</h3>
-  <span class="span-img">
-    <img src="Pics/foodpic.jpeg">
-    <div class="span-text">HUNGRY? <br>GET IT DELIVERED!</div>
-  </span>
-  <div>
+  <head>
+    <title>Foodar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="main-header" role="banner">       
+      <img src="Pics/foodar-logo.png" alt="Foodar Logo Image" class="banner-img"/>
+    </header>
+    <div>
+      <a href="#Register" class="sign-up">
+        Sign in / Register
+        </a>
+      <h3 class="title">Foodar</h3>
+    </div>
+    
+    <span class="span-img">
+      <img src="Pics/foodpic.jpeg">
+      <div class="span-text">HUNGRY? <br>GET IT DELIVERED!</div>
+    </span>
+     
+  <div class="zip-entry">
     <h1>Find a driver near you!</h1>
     <p>Type in your zipcode below and click Go! to find a driver near you</p>
     <form method="post">
-      <input type="text" placeholder="11111">
-      <button type="submit">GO!
-      </button>
+      <input type="text" id="zip" placeholder="11111">
+      <button type="submit" class="button">GO!</button>
     </form>
   </div>
-<!--   Footer   -->
+  <script src="app.js"></script>
   <footer>
     <div class="footer">
         <ul class="footer-links">
           <li><a href="#Home">Home</a></li>
           <li><a href="#About">About Foodar</a></li>
           <li><a href="#Register">Register</a></li>
+          <li><a href="request.html">Request Food Now!</a></li>
         </ul>
         <div class="social">
           <a href="https://www.facebook.com/foodar">
